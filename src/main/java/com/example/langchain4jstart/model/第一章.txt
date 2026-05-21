@@ -1,0 +1,7 @@
+1、模型导入
+2、Main1 模型对话
+2、Main2 自定义工具调用
+
+
+ollama run qwen3.5:9b
+ollama pull nomic-embed-text

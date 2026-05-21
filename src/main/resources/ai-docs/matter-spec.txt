@@ -1,0 +1,5 @@
+【内部机密：嘉兴IoT研发中心标准】
+编号为 gateway_01 的边缘网关属于 301 多媒体教室。
+该设备接入 Matter 协议时，必须使用专用私钥证书（Secret-Key: JX-2026-MATTER）。
+如果遇到 Matter 设备绑定数量达到 18 个的上限，必须在终端执行清洗命令：mqtt-client --clean-all。
+未经过此标准操作，网关将拒绝接入任何新的 Matter 子设备。
